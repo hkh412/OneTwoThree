@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+        android:id="@+id/action_write"
+        android:title="@string/action_write"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="never"
+        android:actionViewClass="android.widget.SearchView"
+        />
+</menu>

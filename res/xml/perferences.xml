@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="사용자정보"
+        android:key="pref_key_account_settings">
+        
+<!--         <com.hkh.onetwothree.preference.LoginPreference -->
+<!--             android:title="로그인" -->
+<!--             android:key="login_key" /> -->
+<!-- 		<CheckBoxPreference -->
+<!--             android:key="pref_key_auto_delete" -->
+<!--             android:summary="summary" -->
+<!--             android:title="check if title" -->
+<!--             android:defaultValue="false" /> -->
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    >
+    
+    <ProgressBar                
+        android:layout_width="15dip"       
+        android:layout_height="15dip"
+        android:id="@+id/imageview_progress" 
+        android:layout_centerInParent="true"
+        />
+    
+    <ImageView
+        android:id="@+id/imageview_holder"       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        />
+
+</RelativeLayout>

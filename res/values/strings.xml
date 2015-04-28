@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">이얼싼</string>
+    <string name="ad_unit_id">ca-app-pub-8932665111349351/2160154997</string>
+    <string name="settings_name">설정</string>
+    <string name="action_settings">설정</string>
+    <string name="action_search">검색</string>
+    <string name="action_write">글쓰기</string>
+    <string name="activity_write">글쓰기</string>
+    <string name="title_search">검색결과</string>
+    <string name="search_hint">제목검색</string>
+	<string name="drawer_open">메뉴 열기</string>
+    <string name="drawer_close">메뉴 닫기</string>
+    <string name="text_member_join">&lt;u>회원가입&lt;/u></string>
+    <string name="message_back_button_toast">뒤로가기를 한번 더 누르면 종료됩니다.</string>
+    <string name="message_select_region">지역을 선택해 주세요.</string>
+    <string name="message_select_category">분류를 선택해 주세요.</string>
+    <string name="message_empty_post">읽은 글이 없습니다.</string>
+    <string name="message_login_success">로그인 되었습니다.</string>
+    <string name="message_logout_success">로그아웃 되었습니다.</string>
+    <string name="message_login_problem">로그인 시 문제가 발생했습니다. 다시 한번 시도해 주세요.</string>
+    <string name="message_logout_problem">로그아웃 시 문제가 발생했습니다. 다시 한번 시도해 주세요.</string>
+    <string name="message_write_login">글쓰기는 로그인이 필요합니다. 로그인 해주세요.</string>
+    <string name="message_cmt_login">댓글작성은 로그인이 필요합니다. 로그인 해주세요.</string>
+    <string name="message_timer_not_reset">글쓰기가 너무 빠릅니다. 30초후에 다시 시도해 주세요.</string>
+    <string name="message_too_short_comment">댓글은 최소 10자 이상 작성해야 합니다.</string>
+    <string name="message_comment_sent">댓글이 등록되었습니다.</string>
+    <string name="message_comment_sent_problem">댓글등록시 문제가 발생했습니다. 다시 한번 시도해 주세요.</string>
+    <string name="message_network_unavailable">네트워크 연결이 원활하지 않습니다. 다시 한번 시도해 주세요.</string>
+    <string name="message_favorite_added">이(가) 즐겨찾기에 추가 되었습니다.</string>
+    <string name="message_photo_saved">사진이 저장되었습니다.</string>
+    <string name="message_photo_cannot_save">사진을 저장할 수 없습니다.</string>
+    <string name="message_put_title">제목을 입력하세요.</string>
+    <string name="message_put_content">내용을 입력하세요.</string>
+    <string name="message_post_sent">글이 정상적으로 등록되었습니다.</string>
+    
+    <string name="comment_count"><![CDATA[총 <font color=\'#ea3f03\'>%d</font>개의 댓글이 있습니다.]]></string>
+    <string name="message_no_comment">등록된 댓글이 없습니다.</string>
+    <string name="hint_write_comment">댓글을 작성해 보세요.</string>
+    <string name="label_ok">확인</string>
+    <string name="label_cancel">취소</string>
+    <string name="send_comment">전송</string>
+    <string name="image_folder_name">이얼싼</string>
+    <string name="username">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="cancel">취소</string>
+    <string name="title_view_count">조회: %s</string>
+</resources>

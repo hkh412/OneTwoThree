@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:focusable="false">
+    
+    <!-- 헤더 layout -->
+    <include android:id="@+id/layout_header" 
+        layout="@layout/include_board_detail_head" />
+    
+    <!-- 컨텐츠 layout -->
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="8.6dp"
+	    android:paddingRight="8.6dp"
+        >
+        
+        <com.hkh.ott123.views.CustomImageView 
+	        android:id="@+id/imageview"
+	    	android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:clickable="true"
+	        android:visibility="gone"/>
+        
+        <TextView 
+            android:id="@+id/textview"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textIsSelectable="true"
+		    android:visibility="gone"
+		    android:textSize="15sp"
+		    />
+    </FrameLayout>
+    
+   	<!-- 댓글수 표시 layout -->
+	<LinearLayout 
+	    android:id="@+id/layout_cmtcnt"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="16dp"
+	    android:orientation="vertical"
+	    android:background="#efefef"
+	    >
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.7dp"
+	        android:background="#e3e3e3"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/tv_detail_cmtcnt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textIsSelectable="true"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_gravity="center"
+	        android:textColor="#343434"
+	        />
+	    
+	</LinearLayout>
+	
+  	<!-- 댓글 layout -->
+	<com.hkh.ott123.views.CommentRow
+	    android:id="@+id/comment_row"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+</RelativeLayout>

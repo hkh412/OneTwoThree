@@ -1,0 +1,81 @@
+[{
+	"city": "한국",
+	"code": "korea",
+	"url": "http://kr.123123.net/main/"
+}, {
+	"city": "연변",
+	"code": "yanbian",
+	"url": "http://yanbian.123123.net/main/"
+}, {
+	"city": "북경",
+	"code": "beijing",
+	"url": "http://beijing.123123.net/main/"
+}, {
+	"city": "상해",
+	"code": "shanghai",
+	"url": "http://shanghai.123123.net/main/"
+}, {
+	"city": "천진",
+	"code": "tianjin",
+	"url": "http://tianjin.123123.net/main/"
+}, {
+	"city": "광주",
+	"code": "guangdong",
+	"url": "http://guangdong.123123.net/main/"
+}, {
+	"city": "심천",
+	"code": "guangdong",
+	"url": "http://guangdong.123123.net/main/"
+}, {
+	"city": "동관",
+	"code": "guangdong",
+	"url": "http://guangdong.123123.net/main/"
+}, {
+	"city": "청도",
+	"code": "shandong",
+	"url": "http://shandong.123123.net/main/"
+}, {
+	"city": "연태",
+	"code": "shandong",
+	"url": "http://shandong.123123.net/main/"
+}, {
+	"city": "위해",
+	"code": "shandong",
+	"url": "http://shandong.123123.net/main/"
+}, {
+	"city": "대련",
+	"code": "liaoning",
+	"url": "http://liaoning.123123.net/main/"
+}, {
+	"city": "심양",
+	"code": "liaoning",
+	"url": "http://liaoning.123123.net/main/"
+}, {
+	"city": "이우",
+	"code": "zhejiang",
+	"url": "http://zhejiang.123123.net/main/"
+}, {
+	"city": "항주",
+	"code": "zhejiang",
+	"url": "http://zhejiang.123123.net/main/"
+}, {
+	"city": "소주",
+	"code": "jiangsu",
+	"url": "http://jiangsu.123123.net/main/"
+}, {
+	"city": "남경",
+	"code": "jiangsu",
+	"url": "http://jiangsu.123123.net/main/"
+}, {
+	"city": "할빈",
+	"code": "heilongjiang",
+	"url": "http://heilongjiang.123123.net/main/"
+}, {
+	"city": "일본",
+	"code": "japan",
+	"url": "http://japan.123123.net/main/"
+}, {
+	"city": "미국",
+	"code": "usa",
+	"url": "http://usa.123123.net/main/"
+}]

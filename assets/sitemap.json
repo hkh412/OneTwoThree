@@ -1,0 +1,149 @@
+[{
+	"uid": "0",
+	"name": "즐겨찾기",
+	"url": "",
+	"type": "",
+	"depth": "0"
+}, {
+	"uid": "10",
+	"name": "이야기방",
+	"url": "board.php?act=list&bo_table=10_15",
+	"type": "",
+	"author": "true",
+	"depth": "0"
+}, {
+	"uid": "11",
+	"name": "도움요청",
+	"url": "board.php?act=list&bo_table=10_15",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|"
+}, {
+	"uid": "12",
+	"name": "경제,재태크",
+	"url": "board.php?act=list&bo_table=10_31",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|"
+}, {
+	"uid": "13",
+	"name": "사회,직장",
+	"url": "board.php?act=list&bo_table=10_32",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|"
+}, {
+	"uid": "14",
+	"name": "사랑과 이별",
+	"url": "board.php?act=list&bo_table=10_21",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|"
+}, {
+	"uid": "15",
+	"name": "생활,가정",
+	"url": "board.php?act=list&bo_table=10_22",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|"
+}, {
+	"uid": "16",
+	"name": "임신,육아",
+	"url": "board.php?act=list&bo_table=10_23",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|upload"
+}, {
+	"uid": "17",
+	"name": "요리게시판",
+	"url": "board.php?act=list&bo_table=10_24",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|upload"
+}, {
+	"uid": "18",
+	"name": "건강,미용",
+	"url": "board.php?act=list&bo_table=10_25",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "|category|upload"
+}, {
+	"uid": "1",
+	"name": "지역정보",
+	"url": "board.php?act=list&bo_table=20_11",
+	"type": "",
+	"author": "false",
+	"depth": "0"
+}, {
+	"uid": "8",
+	"name": "모임게시판",
+	"url": "board.php?act=list&bo_table=10_16",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "region||upload"
+}, {
+	"uid": "9",
+	"name": "친구사귀기",
+	"url": "board.php?act=list&bo_table=10_10",
+	"type": "",
+	"author": "true",
+	"depth": "1",
+	"param": "region||"
+}, {
+	"uid": "2",
+	"name": "구인정보",
+	"url": "board.php?act=list&bo_table=20_11",
+	"type": "",
+	"author": "false",
+	"depth": "1",
+	"param": "region|category|"
+}, {
+	"uid": "3",
+	"name": "구직정보",
+	"url": "board.php?act=list&bo_table=20_12",
+	"type": "",
+	"author": "false",
+	"depth": "1",
+	"param": "region|category|"
+}, {
+	"uid": "4",
+	"name": "부동산",
+	"url": "board.php?act=list&bo_table=20_13",
+	"type": "",
+	"author": "false",
+	"depth": "1",
+	"param": "region|category|upload"
+}, {
+	"uid": "5",
+	"name": "벼룩시장",
+	"url": "board.php?act=list&bo_table=20_14",
+	"type": "",
+	"author": "false",
+	"depth": "1",
+	"param": "region|category|upload"
+}, {
+	"uid": "6",
+	"name": "업체광고",
+	"url": "board.php?act=list&bo_table=20_10",
+	"type": "",
+	"author": "false",
+	"depth": "1",
+	"param": "region|category|upload"
+}, {
+	"uid": "7",
+	"name": "맛집,식당,배달",
+	"url": "board.php?act=list&bo_table=20_10&cate1=음식업",
+	"type": "",
+	"author": "false",
+	"depth": "1",
+	"param": "region|category|upload"
+}]

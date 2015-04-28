@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--     	<item android:drawable="@drawable/icon_explain_btn_state" /> -->
+    	<item android:drawable="@drawable/icon_comment_btn_state" />
+    	
+</layer-list>
