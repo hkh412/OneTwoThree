@@ -3,6 +3,8 @@
 
     <string name="app_name">이얼싼</string>
     <string name="ad_unit_id">ca-app-pub-8932665111349351/2160154997</string>
+    <string name="adbuddiz_pub_key"><![CDATA[1096e2c7-7949-40e6-ac28-c9417b786702]]></string>
+        
     <string name="settings_name">설정</string>
     <string name="action_settings">설정</string>
     <string name="action_search">검색</string>

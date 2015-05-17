@@ -32,6 +32,11 @@ public class Config {
 	 */
 	public static int LIST_LIMIT = 100;
 	
+	/**
+	 * AD_BUDDIZ THRESHOLD - MainActivity가 10번 실행된 경우 Adbuddiz 전면광고가 노출된다.
+	 */
+	public static int AD_THRESHOLD = 5;
+	
 	public static final String USER_AGENT = 
 			"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us)"+
 			"AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5";

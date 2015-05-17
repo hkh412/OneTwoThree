@@ -9,6 +9,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
@@ -56,6 +57,7 @@ import com.hkh.ott123.manager.PostStateManager;
 import com.hkh.ott123.manager.SessionManager;
 import com.hkh.ott123.manager.SharedPreferenceManager;
 import com.hkh.ott123.util.Util;
+import com.purplebrain.adbuddiz.sdk.AdBuddiz;
 
 public class MainActivity extends PagerActivity 
 	implements ActionBar.OnNavigationListener,
@@ -228,6 +230,19 @@ public class MainActivity extends PagerActivity
         }
         adRequest = builder.build();
         mAdView.loadAd(adRequest);
+        
+     // AD provider - adbuddiz.com
+        SharedPreferenceManager spm = SharedPreferenceManager.getInstance(mContext);
+        int viewCnt = spm.getInt("view_count");
+        if (viewCnt >= Config.AD_THRESHOLD) {
+        	spm.putInt("view_count", 0);
+            AdBuddiz.setPublisherKey(mContext.getString(R.string.adbuddiz_pub_key));
+            AdBuddiz.cacheAds((Activity)mContext);
+            AdBuddiz.showAd(this);
+        } else {
+        	viewCnt++;
+        	spm.putInt("view_count", viewCnt);
+        }
 	}
 	
 	public void sendAnalytics() {
